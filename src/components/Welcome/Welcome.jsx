@@ -38,7 +38,7 @@ const WelcomeInner = () => {
           Registration
         </Link>
 
-        <Link className='WelcomeContent__btn-log' to={'/auth/login'}>
+        <Link className='WelcomeContent__btn-log' to={'/home'}>
           Log In
         </Link>
       </div>
