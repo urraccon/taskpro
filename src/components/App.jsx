@@ -40,7 +40,7 @@ const App = () => {
           <Route
             path="/home"
             element={
-              <HomePage />
+              <PrivateRoute redirectTo="/auth/login" component={<HomePage />} />
             }
           >
             <Route path=":boardId" element={<ColumnList />} />
